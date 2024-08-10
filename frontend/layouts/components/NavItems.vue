@@ -206,13 +206,6 @@ onMounted(() => {
   />
   <VerticalNavLink
     :item="{
-      title: 'Flash Card Game',
-      icon: 'ri-stack-line',
-      href: '/flash-card-game/start',
-    }"
-  />
-  <VerticalNavLink
-    :item="{
       title: 'Calendar',
       icon: 'ri-calendar-line',
       href: 'https://demos.themeselection.com/materio-vuetify-nuxtjs-admin-template/demo-1/apps/calendar',
