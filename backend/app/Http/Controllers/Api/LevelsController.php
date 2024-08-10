@@ -58,7 +58,7 @@ class LevelsController extends Controller
         event(new LevelCreated($levels));
 
         // Return a success response
-        return response()->json(['message' => 'Level created successfully', 'levels' => $levels], 201);
+        return response()->json(['message' => 'Level created Successfully', 'levels' => $levels], 201);
     }
 
     /**
